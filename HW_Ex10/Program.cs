@@ -5,10 +5,10 @@ Console.WriteLine("Программа, которая выдаёт вторую 
 Console.WriteLine("");
 Console.Write("Введите трехзначное число : ");
 
-void SnowNumber()
+void SecondNumber()
 {
     int num = Convert.ToInt32(Console.ReadLine());
     string result = Convert.ToString(num);
     Console.WriteLine("Вторая цифра этого числа -> " + result[1]);
 }
-SnowNumber();
+SecondNumber();
